@@ -1,4 +1,4 @@
-# Project 0
+# Personal Website
 
 Created a personal website to serve as the online version of my CV. Includes 6 pages:
 
