@@ -32,12 +32,6 @@ $max-width: 900px;
 	}
 }
 
-@media (max-width: 40em) {
-  .navbar-dark.bg-dark {
-    background-color: #0275d8 !important;
-  }
-}
-
 /*intro*/
 #profile-pic {
 	width: 200px;
@@ -123,7 +117,7 @@ $max-width: 900px;
 }
 
 /*mixed*/
-.education .row:not(:last-child):after, .experience .row:not(:last-child):after, .projects .row:not(:last-child):after {
+.education .row:not(:last-child):after, .experience .row:not(:last-child):after, .achievements .row:not(:last-child):after, .projects .row:not(:last-child):after {
     content: "";
     border-bottom: 1px dotted grey;
     width: 100%;
@@ -131,12 +125,12 @@ $max-width: 900px;
     margin-bottom: 30px;
 }
 
-.education h2, .experience h2, .projects h2, .skills h2, th {
+.education h2, .experience h2, .achievements h2, .projects h2, .skills h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 }
 
-.education h3, .experience h3, .projects h3, {
+.education h3, .experience h3, {
 	font-size: 16px;
 	text-transform: uppercase;
 }
